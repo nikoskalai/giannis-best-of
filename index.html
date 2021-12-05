@@ -75,6 +75,9 @@
 		<audio id="me8wnh">
 			<source src="audio/me8wnh.mp3" type="audio/mpeg">
 		</audio>
+		<audio id="sheep">
+			<source src="audio/sheep.mp3" type="audio/mpeg">
+		</audio>
 
 		<button id="darkModeButton" onclick="toggleDarkMode()"><i class="fa fa-moon-o"></i></button></br>
 
@@ -100,6 +103,7 @@
 
 			function toggleBackground() {
 				document.body.style.backgroundImage = "url('img/the_legend.png')";
+				playAudio('sheep')
 			}
 
 			function toggleDarkMode() {
